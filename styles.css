@@ -187,10 +187,10 @@ h3 {
   padding-top: 1px;
   margin-bottom: 15px;
   background-color: #f5f5f5;
-  margin-right: 6%;
+  margin-right: 5%;
 }
 
-.col-sm-4 {
+.faq>.content>.col-sm-6 {
   padding: 0;
 }
 
