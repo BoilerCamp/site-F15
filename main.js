@@ -6,9 +6,9 @@ if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAg
 }
 
 $(function(){
-  var windowH = $(window).height();
+  var windowH = $(window).height() - 60;
   $(window).on('resize', function(){
-    windowH = $(window).height();
+    windowH = $(window).height() - 60;
   });
 
   $(window).scroll(function() {
